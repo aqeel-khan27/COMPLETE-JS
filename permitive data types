@@ -1,0 +1,16 @@
+let name = "AQEEL"
+let age = "21"
+let isloggedin = false
+let state;
+
+
+//permitive datatypes
+//number => 2 to power53
+  //bigint
+  //string
+  //boolean
+  //null=>standalone value
+  //undefined
+
+  console.log(typeof 'AQEEL');
+  console.log(typeof null);
