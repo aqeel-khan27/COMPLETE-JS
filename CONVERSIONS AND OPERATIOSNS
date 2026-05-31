@@ -1,0 +1,34 @@
+
+//if the value is null stored in number
+
+
+let score = "null"
+
+console.log(typeof score);
+console.log(typeof(score));
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+
+console.log(valueInNumber);
+
+//if value is stored in string
+
+let score = "33"
+console.log(typeof score);
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+
+//cheking value for boolean values
+
+let isloggedIn = 1
+
+let booleanIsLoggedIn = Boolean(isloggedIn)
+console.log(booleanIsLoggedIn);
+
+let isloggedIn = 0
+let booleanIsLoggedIn = Boolean(isloggedIn)
+console.log(booleanIsLoggedIn);
+
+let booleanIsLoggedIn = Boolean(isloggedIn)
+console.log(booleanIsLoggedIn);
