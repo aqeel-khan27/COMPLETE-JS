@@ -1,0 +1,40 @@
+//PRIMITiVE(call by value means give you copy)
+
+//7 types
+
+//1 string
+//2 number
+//3 null
+//4 symbol
+//5 nigint
+//6 boolean 
+//7 undefined
+//*************EXAMPLES */
+const score = 33
+const scorevalue = 30.0
+
+const IslogedIn = true
+
+const outsidetemp = null
+let username;
+const id = Symbol('333')
+const anotherid = Symbol('333')
+console.log(id === anotherid);
+
+const bigNumber = 234563352554n
+
+//refrence (NON PREMITIIVE)
+//arrays,objects,function
+
+const heros = ["AQEEL","KHURRAM","TOUSEEF"]
+let myObj = {
+    name: "aqeel",
+    age: "21",
+
+}
+
+const myFunction = function(){
+    console.log("HELLO WORLD");
+    
+}
+console.log(myObj );
