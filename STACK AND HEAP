@@ -1,0 +1,19 @@
+// stack(permitive value)  Heap(non permitive value)
+
+let myYoutubeName = "Aqeeldotcom"
+let anothername = myYoutubeName
+anothername = "shehzad"
+
+//console.log(myYoutubeName);
+//console.log(anothername);
+
+let user1 = {
+    email: "aqeelshehzad@gmail.com"
+    balance:"user@21"
+
+}
+
+let user2 = user1
+user2.email = "niazi@gmail.com"
+console.log(user1.email);
+console.log(user2.email);
