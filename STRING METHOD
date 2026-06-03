@@ -1,0 +1,25 @@
+const name = "aqeel"
+const repoCount = 20
+//console.log(name + repoCount + " value");
+
+//console.log('hello my name is ${name} and my repo count is ${repocount}');
+
+const gamename = new String('aqeelsss')
+//console.log(gamename[0]);
+//console.log(gamename.__proto__);
+
+//console.log(gamename.length
+//);
+console.log(gamename.toUpperCase());
+console.log(gamename.charAt(3));
+
+const newString = gamename.substring(0,4)
+console.log(newString);
+const anotherstring = gamename.slice(-4,3)
+console.log(anotherstring);
+
+const url = "https//:aqeel@gmail,com"
+console.log(url.replace('@','_'))
+console.log(url.includes('ahmed'));
+
+console.log(url.includes('aqeel'));
