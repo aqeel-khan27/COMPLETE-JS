@@ -1,0 +1,35 @@
+// Store marks in an array
+let marks = [85, 78, 92, 88, 76];
+
+// Calculate total marks
+let total = 0;
+
+for (let i = 0; i < marks.length; i++) {
+    total += marks[i];
+}
+
+// Calculate percentage
+let percentage = total / marks.length;
+
+// Determine grade
+let grade;
+
+if (percentage >= 90) {
+    grade = "A+";
+} else if (percentage >= 80) {
+    grade = "A";
+} else if (percentage >= 70) {
+    grade = "B";
+} else if (percentage >= 60) {
+    grade = "C";
+} else if (percentage >= 50) {
+    grade = "D";
+} else {
+    grade = "F";
+}
+
+// Display result
+console.log("Marks: " + marks);
+console.log("Total: " + total);
+console.log("Percentage: " + percentage + "%");
+console.log("Grade: " + grade);
