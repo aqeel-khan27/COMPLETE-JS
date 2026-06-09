@@ -1,0 +1,17 @@
+function createMultiplier(factor) {
+    let count = 0;
+
+    return function(number) {
+        count++;
+        console.log(`Called ${count} times`);
+
+        return number * factor;
+    };
+}
+
+const double = createMultiplier(2);
+const triple = createMultiplier(3);
+
+console.log(double(5));
+console.log(double(10));
+console.log(triple(5));
