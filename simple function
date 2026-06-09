@@ -1,0 +1,19 @@
+
+function sayMyName(){
+
+    console.log("A");
+console.log("Q");
+console.log("E");
+console.log("E");
+console.log("L");
+
+}
+sayMyName()
+
+
+function addtwonumbers(number1 , number2){
+    console.log(number1 + number2);
+    
+}
+
+addtwonumbers(3,null)
