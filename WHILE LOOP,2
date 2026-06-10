@@ -1,0 +1,26 @@
+let i = 5;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+console.log("Done");
+
+// for user looged in
+
+let isLoggedIn = false;
+let attempts = 0;
+
+while (!isLoggedIn && attempts < 3) {
+  console.log("Please log in");
+
+  // Simulating a successful login on the 3rd attempt
+  attempts++;
+
+  if (attempts === 3) {
+    isLoggedIn = true;
+  }
+}
+
+console.log("Welcome!");
