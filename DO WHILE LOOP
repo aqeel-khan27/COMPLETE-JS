@@ -1,0 +1,28 @@
+function getStudentMarks() {
+  const marks = [];
+  let i = 0;
+
+  do {
+    marks.push(70 + i * 5);
+    i++;
+  } while (i < 5);
+
+  return marks;
+}
+
+console.log(getStudentMarks());
+
+//storing marks of student until passing marks reach.
+function collectMarks() {
+  const marks = [];
+  let mark = 30;
+
+  do {
+    marks.push(mark);
+    mark += 8;
+  } while (mark < 50);
+
+  return marks;
+}
+
+console.log(collectMarks());
